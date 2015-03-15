@@ -1,0 +1,109 @@
+;Codewright Project File (do not remove or modify this line)
+[ProjInit]
+ProjSetConfigFlags=0x04010940
+ProjCheckPath='D:\MouseTool\\'
+
+[Files]
+D:\MouseTool\AbtDlg.cpp
+D:\MouseTool\AbtDlg.h
+D:\MouseTool\MouseTool.cpp
+D:\MouseTool\MouseTool.h
+D:\MouseTool\MouseToolDlg.cpp
+D:\MouseTool\MouseToolDlg.h
+D:\MouseTool\OptionsDlg.cpp
+D:\MouseTool\OptionsDlg.h
+D:\MouseTool\resource.h
+D:\MouseTool\Trial.h
+D:\MouseTool\History.txt
+D:\MouseTool\ClickInfo.cpp
+D:\MouseTool\ClickInfo.h
+D:\MouseTool\ProcessHandler.cpp
+D:\MouseTool\ProcessHandler.h
+D:\MouseTool\OptGeneral.cpp
+D:\MouseTool\OptGeneral.h
+D:\MouseTool\OptionsSheet.cpp
+D:\MouseTool\OptionsSheet.h
+D:\MouseTool\constants.h
+D:\MouseTool\OptContext.cpp
+D:\MouseTool\OptContext.h
+D:\MouseTool\KeyHandler.cpp
+D:\MouseTool\KeyHandler.h
+D:\MouseTool\OptKeys.cpp
+D:\MouseTool\OptKeys.h
+D:\MouseTool\DlgGetHotkey.cpp
+D:\MouseTool\DlgGetHotkey.h
+D:\MouseTool\Locker.cpp
+D:\MouseTool\Locker.h
+d:\MouseTool\ModeChanger.cpp
+d:\MouseTool\ModeChanger.h
+d:\MouseTool\Splash.cpp
+d:\MouseTool\Splash.h
+D:\MouseTool\DlgWndTypeDesc.cpp
+D:\MouseTool\DlgWndTypeDesc.h
+d:\MouseTool\Clicker.cpp
+d:\MouseTool\Clicker.h
+D:\MouseTool\Crypt.cpp
+D:\MouseTool\Crypt.h
+
+[State]
+SysSetCwd='e:\DevStudio\VC98'
+SrchSetFlags=0x0419600a
+FileSortMode=0x1
+StateWindowFrame=0,0,587,703,0x63297fca
+_StateHistory=FILELIST,'D:\MouseTool\MouseToolDlg.h','D:\MouseTool\MouseTool.cpp','D:\MouseTool\MouseTool.h','D:\MouseTool\OptContext.cpp','D:\Program Files\Apache Group\Apache\conf\httpd.conf','D:\Program Files\Apache Group\Apache\conf\access.conf','D:\Program Files\Apache Group\Apache\conf\srm.conf','d:\mousetool\OptionsSheet.cpp','E:\DevStudio\VC98\Include\WINUSER.H'
+_StateHistory=SEARCH,'TrayIcon.SetIcon','IsInTray','DAYS_IN_TRIAL','CLocker','m_Locker','FirstTime','WinHelp','DocumentRoot','MOD_CONTROL','RegisterHotKey'
+_StateHistory=REPLACE,'ptNewWndPos','m_ptDragStartPointWnd','m_bToggleButtonOn','m_bDraggingMouseToolWithToggleKey','m_bMouseToolIsActive','bKeyState','bButtonStateChanged','bHoldingMouseDown','LoadMappedBitmap','m_nOldClickType'
+_StateHistory=XSYMBOL,'ShowRegisterDlg','DAYS_IN_TRIAL','VAL_LEN','CLocker','RestoreConfig','OnInitDialog','SaveConfig','OnHelpButton','DRAGMODE','WinHelp'
+_StateHistory=EDITFILE,'D:\MouseTool\blowfish.h','D:\temp\Perl\bin2hex-1999.0302.pl','D:\temp\Perl\mime-multipart-1999.0208.pl','D:\temp\Perl\UU\Convert-UU-0.20\puuencode.PL','D:\temp\Perl\UU\Convert-UU-0.20\lib\Convert\UU.pm','D:\temp\Perl\juju\juju-0.4.0\juen_encode.c','D:\temp\Perl\7plus\7pl217sr\encode.c','D:\Program Files\Apache Group\Apache\conf\httpd.conf','D:\Program Files\Apache Group\Apache\conf\access.conf','D:\Program Files\Apache Group\Apache\conf\srm.conf'
+_StateHistory=DIRECTORY,'f:\mousetool','E:\DevStudio\VC98\MFC\SRC','E:\DevStudio\VC98\CRT\SRC','E:\DevStudio\VC98'
+_StateHistory=FGREP,'TrayIcon','SetIcon','TrayIcon.SetIcon','IsInTray','DAYS_IN_TRIAL','CLocker','m_Locker','FirstTime','WinHelp','DocumentRoot'
+_StateHistory=GREPSCOPE,'*.cpp','*.*'
+_StateHistory=SDISPLAY,'ClickType','m_ClickType','cHandler.m_bOverrideNextOnly','SetClickType()','SetClickType','m_bInHelpMode','bool','BOOL'
+_StateHistory=FGREPDIR,'F:\Intermediate\2-19-99','d:\MouseTool','e:\java\projects\firstapp','D:\MouseTool','D:\temp\Perl\7plus\7pl217sr','D:\Program Files\Apache Group\Apache\conf'
+
+[Editor]
+VCSProject=''
+VCSProjectPath=''
+VCSProjectLocalPath=''
+ClipboardSetTermStr='\r\n',0
+ClipboardEnableTermStr=1
+ClipboardSetSepStr='\r\n',0
+ClipboardEnableSepStr=1
+ScrapSetCount=1
+
+[Compiler]
+CompilerNewExt=.htm
+CompilerAssign='Microsoft C(NT-i386)','.c'
+CompilerNewExt=.pas
+CompilerAssign='Microsoft C(NT-i386)','.h'
+CompilerNewExt=.ini
+CompilerNewExt=.html
+CompilerAssign='Microsoft C(NT-i386)','.cpp'
+CompilerAssign='Default Compiler Settings','.*'
+CompilerAssign='Microsoft C(NT-i386)','.cxx'
+CompilerNewExt=.txt
+CompilerAssign='Microsoft C(NT-i386)','.hpp'
+TagSetCmd='${HOME}${WTAGS} -oc -d -t${TAGFILE}.tag -p${TAGFILE}.ptg',0x8000060
+BrowseSetFile='F:\MouseTool\MouseTool.ptg'
+TagSetFile='F:\MouseTool\MouseTool.tag'
+CompilerAddCmd='Default Compiler Settings','',1073741840,'',16,'',16,'',16,'',0,'',0,'','','','',''
+CompilerAddResponse='Default Compiler Settings',
+CompilerAddCmd='$_cw_proj_hash_$','',1073741904,'',80,'${FTEE} makeMT.bat',176,'${FTEE} nmake',176,'',0,'F:\MouseTool\Release\MouseTool.exe',0,'_ErrorInfoDefault','','','proj.err','%x'
+CompilerAddResponse='$_cw_proj_hash_$',
+CompilerAddCmd='Microsoft C(NT-i386)','${FTEE} cl -DSTRICT -c -W3 -G3 -D_X86_=1 -DWIN32 %r%e',1073741936,'${FTEE} cl -DSTRICT -c -W3 -G3 -D_X86_=1 -DWIN32 %r%e',112,'',144,'',144,'',0,'',0,'_MicrosoftErrorInfo','','','',''
+CompilerAddResponse='Microsoft C(NT-i386)',
+
+[VersionControl:PVCS]
+VCSSetCmd=VCS_CHECKIN_ID,'put -n -T@%Q -M@%Q %b%e',0x8000040
+VCSSetCmd=VCS_CHECKINLOCK_ID,'put -n -T@%Q -M@%Q -l %b%e',0x8000040
+VCSSetCmd=VCS_CHECKOUT_ID,'get -y %b%e',0x8000040
+VCSSetCmd=VCS_CHECKOUTLOCK_ID,'get -y -l %b%e',0x8000040
+VCSSetCmd=VCS_CHECKLOCK_ID,'vcs -y -l %b%e',0x8000040
+VCSSetCmd=VCS_CHECKUNLOCK_ID,'vcs -y -u %b%e',0x8000040
+VCSSetCmd=VCS_CHECKLABEL_ID,'vcs -y -v"${VCSLABEL}" %b%e',0x8000040
+VCSSetCmd=VCS_CHECKLOG_ID,'vlog %b%e',0x8000040
+VCSSetCmd=VCS_CHECKPROP_ID,'vlog -b %b%e',0x8000040
+VCSSetCmd=VCS_CHECKDIFF_ID,'vdiff -r %b%e',0x8000040
+VCSSetCmd=VCS_CHECKMENU_ID,'pvcsvmwn',0x8000000
+VCSSetCmd=VCS_ADD_ID,'vcs -i -t@%Q %b%e',0x8000040
+VCSSetCmd=VCS_REMOVE_ID,'del /f %b%{??v|___}e',0x8000040

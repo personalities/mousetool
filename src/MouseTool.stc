@@ -1,0 +1,4 @@
+[General]
+Target=MouseTool - Win32 Debug
+[Instrumentation]
+Inlines=No

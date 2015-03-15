@@ -1,0 +1,57 @@
+MouseTool 3.16 changes
+======================
+
+This file details the changes that were made to MouseTool 3.13 to create
+MouseTool 3.16. (Don't ask where 3.14 and 3.15 went.)
+
+These changes do not affect the MouseTool licence.
+
+What's new
+==========
+
+MouseTool can now detect scroll bars in most windows. If Smart Drag is
+enabled in the Global options tab, Smart Drag will be enabled if the
+mouse pointer is over a scroll bar *regardless of the current context*.
+
+I find this very useful, as I have smart drag disabled for some windows
+and I kept forgetting that sometimes I had to actually press the mouse
+button to get the computer to do something... not any more!
+
+This has yet to cause any problems, but if you don't want it you can
+disable this behaviour on a per-context basis using the new 'Disable
+smart drag in scroll bar' option on the Context options tab. I have
+been using this new version for about 2-3 months now, and I have yet
+to find a use for this option...
+
+Scroll bars
+===========
+
+Internet Explorer windows (including HTML help) don't use the standard
+Windows scroll bar facilities, so Mouse Tool can't tell there's a scroll
+bar.
+
+MouseTool should detect left-hand scroll bars (as found in right-to-left
+languages) and support them correctly. Unfortunately this has yet to be
+tested, as I don't have a suitable version of windows or indeed any
+suitable software. If anyone has any problems with left-hand scrollbars
+and MouseTool, let me know and I'll do my best to fix them.
+
+Bugs Lurking
+============
+
+* I've had MouseTool hang a couple of times. This may be down to changes
+I've made, but I'm pretty sure it happened before once or twice. This is
+very rare.
+
+* Sometimes the task bar icon gets stuck, and doesn't change. MouseTool
+continues to operate normally. You can live with this, or restart MouseTool.
+This occurs in both 3.13 and 3.16 under Win2000 at least (which is all I
+use). One day I'll try and work this out.
+
+Who's responsible?
+==================
+
+The changes were made by Tom Seddon, tseddon@uk.infogrames.com.
+The changes have nothing to do with Infogrames Studios Ltd.; that's just
+where I work, and therefore where it's easiest to mail me at.
+

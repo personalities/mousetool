@@ -1,0 +1,392 @@
+# Microsoft Developer Studio Generated Dependency File, included by MouseTool.mak
+
+.\AbtDlg.cpp : \
+	".\AbtDlg.h"\
+	".\ClickInfo.h"\
+	".\constants.h"\
+	".\DlgGetHotkey.h"\
+	".\KeyHandler.h"\
+	".\Locker.h"\
+	".\ModeChanger.h"\
+	".\MouseTool.h"\
+	".\MouseToolDlg.h"\
+	".\OptContext.h"\
+	".\OptGeneral.h"\
+	".\OptionsSheet.h"\
+	".\OptJoystick.h"\
+	".\OptKeys.h"\
+	".\OptTiming.h"\
+	".\ProcessHandler.h"\
+	".\Splash.h"\
+	".\TRAYICON.H"\
+	
+
+.\AbtTrialDlg.cpp : \
+	".\AbtTrialDlg.h"\
+	".\ClickInfo.h"\
+	".\constants.h"\
+	".\DlgGetHotkey.h"\
+	".\KeyHandler.h"\
+	".\Locker.h"\
+	".\ModeChanger.h"\
+	".\MouseTool.h"\
+	".\MouseToolDlg.h"\
+	".\OptContext.h"\
+	".\OptGeneral.h"\
+	".\OptionsSheet.h"\
+	".\OptJoystick.h"\
+	".\OptKeys.h"\
+	".\OptTiming.h"\
+	".\ProcessHandler.h"\
+	".\Splash.h"\
+	".\TRAYICON.H"\
+	
+
+.\Clicker.cpp : \
+	".\Clicker.h"\
+	
+
+.\ClickInfo.cpp : \
+	".\ClickInfo.h"\
+	".\constants.h"\
+	
+
+.\DlgAlertContexts.cpp : \
+	".\ClickInfo.h"\
+	".\constants.h"\
+	".\DlgAlertContexts.h"\
+	".\MouseTool.h"\
+	".\ProcessHandler.h"\
+	".\Splash.h"\
+	
+
+.\DlgAlertNextClick.cpp : \
+	".\DlgAlertNextClick.h"\
+	".\MouseTool.h"\
+	".\Splash.h"\
+	
+
+.\DlgAlertSmartDrag.cpp : \
+	".\DlgAlertSmartDrag.h"\
+	".\MouseTool.h"\
+	".\Splash.h"\
+	
+
+.\DlgGetHotkey.cpp : \
+	".\ClickInfo.h"\
+	".\constants.h"\
+	".\DlgGetHotkey.h"\
+	".\KeyHandler.h"\
+	".\Locker.h"\
+	".\ModeChanger.h"\
+	".\MouseTool.h"\
+	".\MouseToolDlg.h"\
+	".\OptContext.h"\
+	".\OptGeneral.h"\
+	".\OptionsSheet.h"\
+	".\OptJoystick.h"\
+	".\OptKeys.h"\
+	".\OptTiming.h"\
+	".\ProcessHandler.h"\
+	".\Splash.h"\
+	".\TRAYICON.H"\
+	
+
+.\DlgOldSystemFiles.cpp : \
+	".\DlgOldSystemFiles.h"\
+	".\MouseTool.h"\
+	".\Splash.h"\
+	
+
+.\DlgRegister.cpp : \
+	".\DlgRegister.h"\
+	".\MouseTool.h"\
+	".\Splash.h"\
+	
+
+.\DlgWelcome.cpp : \
+	".\DlgWelcome.h"\
+	".\MouseTool.h"\
+	".\Splash.h"\
+	
+
+.\DlgWndTypeDesc.cpp : \
+	".\DlgWndTypeDesc.h"\
+	".\MouseTool.h"\
+	".\Splash.h"\
+	
+
+.\ExpdDlg.cpp : \
+	".\AbtTrialDlg.h"\
+	".\ExpdDlg.h"\
+	".\MouseTool.h"\
+	".\Splash.h"\
+	
+
+.\ExpiredDialog.cpp : \
+	".\AbtTrialDlg.h"\
+	".\expireddialog.h"\
+	".\MouseTool.h"\
+	".\Splash.h"\
+	
+
+.\ExpiringDlg.cpp : \
+	".\ExpiringDlg.h"\
+	".\MouseTool.h"\
+	".\Splash.h"\
+	
+
+.\KeyHandler.cpp : \
+	".\KeyHandler.h"\
+	
+
+.\Locker.cpp : \
+	".\constants.h"\
+	".\Locker.h"\
+	
+
+.\ModeChanger.cpp : \
+	".\ModeChanger.h"\
+	".\MouseTool.h"\
+	".\Splash.h"\
+	
+
+.\MouseTool.cpp : \
+	".\AbtTrialDlg.h"\
+	".\ClickInfo.h"\
+	".\commandline.h"\
+	".\constants.h"\
+	".\DlgGetHotkey.h"\
+	".\DlgOldSystemFiles.h"\
+	".\ExpdDlg.h"\
+	".\ExpiringDlg.h"\
+	".\KeyHandler.h"\
+	".\Locker.h"\
+	".\ModeChanger.h"\
+	".\MouseTool.h"\
+	".\MouseToolDlg.h"\
+	".\OptContext.h"\
+	".\OptGeneral.h"\
+	".\OptionsSheet.h"\
+	".\OptJoystick.h"\
+	".\OptKeys.h"\
+	".\OptTiming.h"\
+	".\ProcessHandler.h"\
+	".\Splash.h"\
+	".\TRAYICON.H"\
+	
+
+.\MouseTool.rc : \
+	".\res\bitmap1.bmp"\
+	".\res\bmp00001.bmp"\
+	".\res\bmp00005.bmp"\
+	".\res\bmp00006.bmp"\
+	".\res\bmp00007.bmp"\
+	".\res\bmp00008.bmp"\
+	".\res\bmp00009.bmp"\
+	".\res\bmp00010.bmp"\
+	".\res\bmp00011.bmp"\
+	".\res\bmp00012.bmp"\
+	".\res\bmp00013.bmp"\
+	".\res\ddn.bmp"\
+	".\res\dfl.bmp"\
+	".\res\drag.bmp"\
+	".\res\flat.bmp"\
+	".\Res\icon2.ico"\
+	".\Res\idr_main.ico"\
+	".\res\lfl.bmp"\
+	".\res\MouseTool.ico"\
+	".\res\MouseTool.rc2"\
+	".\Res\mtDouble.ico"\
+	".\Res\mtStopped.ico"\
+	".\res\restore.bmp"\
+	".\res\rfl.bmp"\
+	".\res\rup.bmp"\
+	".\RES\splashbeta256.bmp"\
+	".\resource.hm"\
+	".\trouble.bmp"\
+	
+
+.\MouseToolDlg.cpp : \
+	".\AbtDlg.h"\
+	".\Clicker.h"\
+	".\ClickInfo.h"\
+	".\constants.h"\
+	".\DlgGetHotkey.h"\
+	".\DlgRegister.h"\
+	".\DlgWelcome.h"\
+	".\ExpdDlg.h"\
+	".\KeyHandler.h"\
+	".\Locker.h"\
+	".\ModeChanger.h"\
+	".\mousedowndlg.h"\
+	".\MouseTool.h"\
+	".\MouseToolDlg.h"\
+	".\OptContext.h"\
+	".\OptGeneral.h"\
+	".\OptionsDlg.h"\
+	".\OptionsSheet.h"\
+	".\OptJoystick.h"\
+	".\OptKeys.h"\
+	".\OptTiming.h"\
+	".\ProcessHandler.h"\
+	".\RegisterDlg.h"\
+	".\Splash.h"\
+	".\StoppedDlg.h"\
+	".\TRAYICON.H"\
+	".\WineyesTest.h"\
+	
+
+.\OptContext.cpp : \
+	".\ClickInfo.h"\
+	".\constants.h"\
+	".\DlgAlertContexts.h"\
+	".\MouseTool.h"\
+	".\OptContext.h"\
+	".\ProcessHandler.h"\
+	".\Splash.h"\
+	
+
+.\OptGeneral.cpp : \
+	".\AbtDlg.h"\
+	".\AbtTrialDlg.h"\
+	".\ClickInfo.h"\
+	".\constants.h"\
+	".\DlgAlertNextClick.h"\
+	".\DlgAlertSmartDrag.h"\
+	".\DlgGetHotkey.h"\
+	".\KeyHandler.h"\
+	".\MouseTool.h"\
+	".\OptContext.h"\
+	".\OptGeneral.h"\
+	".\OptionsSheet.h"\
+	".\OptJoystick.h"\
+	".\OptKeys.h"\
+	".\OptTiming.h"\
+	".\ProcessHandler.h"\
+	".\Splash.h"\
+	
+
+.\OptionsDlg.cpp : \
+	".\AbtDlg.h"\
+	".\AbtTrialDlg.h"\
+	".\ClickInfo.h"\
+	".\constants.h"\
+	".\DlgGetHotkey.h"\
+	".\KeyHandler.h"\
+	".\MouseTool.h"\
+	".\OptContext.h"\
+	".\OptGeneral.h"\
+	".\OptionsDlg.h"\
+	".\OptionsSheet.h"\
+	".\OptJoystick.h"\
+	".\OptKeys.h"\
+	".\OptTiming.h"\
+	".\ProcessHandler.h"\
+	".\Splash.h"\
+	
+
+.\OptionsSheet.cpp : \
+	".\AbtDlg.h"\
+	".\AbtTrialDlg.h"\
+	".\afxpriv.h"\
+	".\ClickInfo.h"\
+	".\constants.h"\
+	".\DlgGetHotkey.h"\
+	".\KeyHandler.h"\
+	".\Locker.h"\
+	".\ModeChanger.h"\
+	".\MouseTool.h"\
+	".\MouseToolDlg.h"\
+	".\OptContext.h"\
+	".\OptGeneral.h"\
+	".\OptionsSheet.h"\
+	".\OptJoystick.h"\
+	".\OptKeys.h"\
+	".\OptTiming.h"\
+	".\ProcessHandler.h"\
+	".\Splash.h"\
+	".\TRAYICON.H"\
+	
+
+.\OptJoystick.cpp : \
+	".\MouseTool.h"\
+	".\OptJoystick.h"\
+	".\Splash.h"\
+	
+
+.\OptKeys.cpp : \
+	".\constants.h"\
+	".\DlgGetHotkey.h"\
+	".\KeyHandler.h"\
+	".\MouseTool.h"\
+	".\OptKeys.h"\
+	".\Splash.h"\
+	
+
+.\OptTiming.cpp : \
+	".\MouseTool.h"\
+	".\OptTiming.h"\
+	".\Splash.h"\
+	
+
+.\ProcessHandler.cpp : \
+	".\ClickInfo.h"\
+	".\constants.h"\
+	".\DlgWndTypeDesc.h"\
+	".\ProcessHandler.h"\
+	
+
+.\RegisterDlg.cpp : \
+	".\ClickInfo.h"\
+	".\constants.h"\
+	".\DlgGetHotkey.h"\
+	".\KeyHandler.h"\
+	".\Locker.h"\
+	".\ModeChanger.h"\
+	".\MouseTool.h"\
+	".\MouseToolDlg.h"\
+	".\OptContext.h"\
+	".\OptGeneral.h"\
+	".\OptionsSheet.h"\
+	".\OptJoystick.h"\
+	".\OptKeys.h"\
+	".\OptTiming.h"\
+	".\ProcessHandler.h"\
+	".\RegisterDlg.h"\
+	".\Splash.h"\
+	".\TempStrDlg.h"\
+	".\TRAYICON.H"\
+	
+
+.\sharelock.cpp : \
+	".\sharelock.h"\
+	
+
+.\Splash.cpp : \
+	".\constants.h"\
+	".\MouseTool.h"\
+	".\Splash.h"\
+	
+
+.\StdAfx.cpp : \
+	".\StdAfx.h"\
+	"e:\devstudio\vc98\include\basetsd.h"\
+	
+
+.\StoppedDlg.cpp : \
+	".\MouseTool.h"\
+	".\Splash.h"\
+	".\StoppedDlg.h"\
+	
+
+.\TempStrDlg.cpp : \
+	".\MouseTool.h"\
+	".\Splash.h"\
+	".\TempStrDlg.h"\
+	
+
+.\TRAYICON.CPP : \
+	".\TRAYICON.H"\
+	"e:\devstudio\vc98\mfc\include\afxpriv.h"\
+	

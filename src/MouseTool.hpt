@@ -1,0 +1,40 @@
+RoboHelp Topic Export file
+23|HIDD_DLG_CONTEXT|Context Monitoring
+23|ReduceButton|Reduce Button
+23|HIDD_OPT_GENERAL|Options
+23|HIDD_MOUSETOOL_DIALOG|Welcome to MouseTool
+23|HIDD_SET_CONTEXT|Change MouseTool's behavior based on the window under the mouse
+23|SETTING_CONTEXT|Setting the Context
+23|HIDD_OPT_KEYS|Hotkeys
+23|SmartDragOptionsTutorial|Smart Drag (Tour)
+23|GeneralOptions|General Options
+23|DwellTimeTutorial|Dwell Time and Dwell Zone (Tour)
+23|BasicOperation|Basic Operation
+23|Tutorial|Start Tour
+23|ProblemWithTypeNames|The Problem with Using Window Type Names for Contexts
+23|UglyWindowTypeNames|Why all the ugly window type names?
+23|Tips|Tips
+23|ModeChanger|Mode Change Buttons
+23|WindowTypesList|Window Types List
+23|DeleteButton|Delete Button
+23|AddButton|Add Button
+23|HIDC_CK_OVERRIDE_NEXT_CLICK|Manually Changing Modes Overrides Next Click Only
+23|RestoreButton|Restore Button
+23|ActionRadioButtons|Context Actions
+23|VisualIndicator|Visual Dragging Indicator
+23|HIDC_AUDIBLE_TICK|Audible Tick
+23|HelpButton|Help Button
+23|OnOffButton|On/Off Button
+23|SmartDragOptions|Smart Drag
+23|StretchTimerOptions|Stretch Break Timer
+23|StartWithWindows|Start MouseTool when Windows Starts
+23|KeepOnTop|Keep MouseTool On Top
+23|DwellTime|Dwell Time and Dwell Zone
+23|ContactingMe|Contacting JR Software LLC
+23|AboutHotkeys|About Hotkeys
+23|CleaningMouse|Cleaning Your Mouse
+23|RegisterButton|Registering MouseTool
+23|NewFeaturesInVersion2|What's New
+23|MouseToolFeatures|Features
+23|EnableContextMonitoring|Enable Context Monitoring
+23|PreviousWindowType|Window Type for window last clicked on

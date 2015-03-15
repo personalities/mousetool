@@ -1,0 +1,11 @@
+// Microsoft Developer Studio generated Help ID include file.
+// Used by MouseTool.rc
+//
+#define HIDC_BUTTON_DOUBLE              0x80b60451    // IDD_OPT_KEYS
+#define HIDC_BUTTON_LEFT                0x80b60452    // IDD_OPT_KEYS
+#define HIDC_BUTTON_RIGHT               0x80b60450    // IDD_OPT_KEYS
+#define HIDC_BUTTON_TOGGLE              0x80b60458    // IDD_OPT_KEYS
+#define HIDC_EDT_DBL_BUTTON             0x80b60442    // IDD_OPT_KEYS
+#define HIDC_EDT_LEFT_BUTTON            0x80b6043c    // IDD_OPT_KEYS
+#define HIDC_EDT_RIGHT_BUTTON           0x80b6043d    // IDD_OPT_KEYS
+#define HIDC_EDT_TOGGLE_BTN             0x80b60443    // IDD_OPT_KEYS

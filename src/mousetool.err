@@ -1,0 +1,18 @@
+Microsoft (R) Help Compiler
+HCRTF 4.03.0002
+Copyright (c) Microsoft Corp 1990 - 1995. All rights reserved.
+mousetool.hpj
+    HC3025: Warning: OPTGNRL2.SHG : 
+	Jump to undefined Topic ID: "OverrideNextOnly".
+    HC3025: Warning: OPTGNRL2.SHG : 
+	Jump to undefined Topic ID: "AudibleTick".
+39	Topics
+72	Jumps
+57	Keywords
+8	Bitmaps
+
+
+Created c:\mousetool\version 2.05\mousetool\help files\mousetool.hlp, 506,789 bytes
+Bitmaps: 456,907 bytes
+Compile time: 0 minutes, 2 seconds
+1 note, 2 warnings

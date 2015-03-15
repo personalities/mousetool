@@ -1,0 +1,8 @@
+
+D:\MouseTool>nmake  /f "MouseTool.mak" CFG="MouseTool - Win32 Release" 
+
+Microsoft (R) Program Maintenance Utility   Version 6.00.8168.0
+Copyright (C) Microsoft Corp 1988-1998. All rights reserved.
+
+NMAKE : fatal error U1073: don't know how to make '".\sharelock.h"'
+Stop.

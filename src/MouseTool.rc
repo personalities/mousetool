@@ -1,0 +1,665 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+// Generated Help ID header file
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "resource.hm"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif\r\n"
+    "#include ""res\\MouseTool.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\MouseTool.ico"
+IDI_ICON_RED            ICON    DISCARDABLE     "res\\icon2.ico"
+IDI_ICON_REVERSED       ICON    DISCARDABLE     "res\\idr_main.ico"
+IDI_ICON_STOPPED        ICON    DISCARDABLE     "RES\\mtStopped.ico"
+IDI_ICON_DOUBLE         ICON    DISCARDABLE     "RES\\mtDouble.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_MOUSETOOL_DIALOG DIALOGEX 0, 0, 132, 15
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "MouseTool"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Start",IDC_BUTTON1,68,1,13,13,BS_BITMAP
+    PUSHBUTTON      "Options",IDC_OPTIONSBUTTON,83,1,30,13
+    PUSHBUTTON      "?",IDC_HELPBUTTON,116,1,13,13
+    CONTROL         "Progress1",IDC_JOYPROGRESS,"msctls_progress32",NOT 
+                    WS_VISIBLE | WS_BORDER,2,1,6,13
+    CONTROL         149,IDC_LSTATIC,"Static",SS_BITMAP,3,1,15,13
+    CONTROL         150,IDC_DSTATIC,"Static",SS_BITMAP,19,1,15,13
+    CONTROL         147,IDC_RSTATIC,"Static",SS_BITMAP,35,1,15,13
+    PUSHBUTTON      "",IDC_SMALLBUTTON,53,1,13,13,BS_BITMAP
+    EDITTEXT        IDC_EDIT1,73,1,56,13,ES_AUTOHSCROLL | NOT WS_VISIBLE
+END
+
+IDD_ABTDIALOG DIALOG DISCARDABLE  0, 0, 182, 287
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,125,7,50,14
+    LTEXT           "MouseTool Version ",IDC_STATIC_VERSION,7,7,114,9
+    LTEXT           "Copyright 1999 by ",IDC_STATIC,7,19,75,10
+    LTEXT           "JR Software LLC",IDC_STATIC,7,32,76,9
+    LTEXT           "Static1",IDC_STATIC1,7,46,168,42
+    CONTROL         134,IDC_STATIC,"Static",SS_BITMAP,31,95,120,147
+    LTEXT           "(The picture is of the original author of MouseTool, taken when I was small and cats were big.)",
+                    IDC_STATIC,7,254,168,26
+END
+
+IDD_SPLASH DIALOGEX 0, 0, 251, 46
+STYLE WS_POPUP
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    CONTROL         "Version ",IDC_STATIC_VERSION,"Static",SS_SIMPLE | NOT 
+                    WS_VISIBLE | WS_GROUP,7,22,140,12,WS_EX_TRANSPARENT
+    CONTROL         177,IDC_STATIC,"Static",SS_BITMAP | NOT WS_VISIBLE,0,0,
+                    251,46
+END
+
+IDD_OPT_GENERAL DIALOGEX 0, 0, 212, 221
+STYLE DS_CONTEXTHELP | WS_CHILD | WS_DISABLED | WS_CAPTION | WS_SYSMENU
+CAPTION "General"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    CONTROL         "Keep MouseTool on Top",IDC_KEEP_ON_TOP,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,7,59,141,10
+    CONTROL         "Visual Dragging Indicator",IDC_SHOW_DRAG_CHECK,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,15,142,138,8
+    CONTROL         "Audible Tick",IDC_AUDIBLE_TICK,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,7,41,122,10
+    CONTROL         "Start MouseTool when Windows Starts",IDC_STARTUPCHECK,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,69,149,10
+    PUSHBUTTON      "About",IDC_BUTTON_ABOUT,158,7,45,12
+    EDITTEXT        IDC_TICKS,7,7,19,12,ES_AUTOHSCROLL
+    LTEXT           "Dwell Time (Tenths of a second)",IDC_STAT_DWELL_TIME,30,
+                    7,116,10
+    EDITTEXT        IDC_EDT_DWELL_ZONE,7,22,19,12,ES_AUTOHSCROLL
+    LTEXT           "Dwell Zone (pixels)",IDC_STAT_DWELL_ZONE,30,21,70,9
+    CONTROL         "Enable Smart Drag",IDC_SMART_DRAG_CHECK,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,7,100,96,10
+    EDITTEXT        IDC_SMART_DRAG_DELAY_EDIT,15,126,19,12,ES_AUTOHSCROLL
+    GROUPBOX        "Smart Drag Options",IDC_SMART_DRAG_FRAME,7,111,198,48
+    LTEXT           "Smart Drag delay (tenths of a second)",
+                    IDC_STAT_SMART_DRAG,37,127,126,13
+    CONTROL         "Enable Stretch Break Timer",IDC_STRETCH_TIMER_CHECK,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,170,175,10
+    EDITTEXT        IDC_MINSTOWAIT,15,196,19,12,ES_AUTOHSCROLL
+    GROUPBOX        "Stretch Timer Options ",IDC_STATIC_STRETCH_FRAME,7,183,
+                    198,33
+    EDITTEXT        IDC_TIME_TO_GO,106,196,25,14,ES_AUTOHSCROLL | 
+                    ES_READONLY | NOT WS_TABSTOP
+    LTEXT           "Minutes between stretches",IDC_STAT_MINS_BTWN_BREAK,37,
+                    194,60,18
+    LTEXT           "Minutes until next stretch break",
+                    IDC_STAT_MINS_TO_NEXT_BREAK,136,194,58,18
+    CONTROL         "Manually changing modes overrides next click only",
+                    IDC_CK_OVERRIDE_NEXT_CLICK,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,7,79,175,10
+    CONTROL         "Check if Mouse is Down",IDC_CK_MOUSE_DN,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,7,51,168,8,0,
+                    HIDC_CK_MOUSE_DN
+END
+
+IDD_OPT_TIMING DIALOG DISCARDABLE  0, 0, 205, 125
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION | WS_SYSMENU
+CAPTION "Smart Drag"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "Enable Smart Drag",IDC_SLOW_CLICK_CHECK,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,14,34,122,10
+    EDITTEXT        IDC_SLOW_CLICK_DELAY_EDIT,14,50,19,12,ES_AUTOHSCROLL
+    GROUPBOX        "Smart Drag Options",IDC_STATIC,7,18,158,56
+    LTEXT           "Smart Drag delay (tenths of a second)",
+                    IDC_SLOW_CLICK_STATIC,37,50,126,13
+END
+
+IDD_OPT_KEYS DIALOGEX 0, 0, 219, 231
+STYLE DS_CONTEXTHELP | WS_CHILD | WS_DISABLED | WS_CAPTION | WS_SYSMENU
+CAPTION "Hotkeys"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDT_DBL_KEY,63,156,87,14,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    EDITTEXT        IDC_EDT_RIGHT_KEY,63,175,87,14,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    LTEXT           "Double Click",IDC_STAT_DBL_KEY,13,159,41,8
+    PUSHBUTTON      "Change",IDC_BUTTON_DBL_KEY,157,156,39,14
+    LTEXT           "Right Click",IDC_STAT_RIGHT_KEY,13,177,42,10
+    PUSHBUTTON      "Change",IDC_BUTTON_RIGHT_KEY,157,175,39,14
+    CONTROL         "Enable Hotkeys",IDC_CK_ENABLE_HOTKEYS,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,7,7,66,10
+    GROUPBOX        "Mode Change Hotkeys",IDC_STAT_HOTKEY_FRAME,5,140,205,78
+    EDITTEXT        IDC_EDT_STOP_KEY,63,193,87,14,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    LTEXT           "On/Off",IDC_STAT_STOP_KEY,13,196,44,8
+    PUSHBUTTON      "Change",IDC_BUTTON_STOP_KEY,157,193,39,14
+    EDITTEXT        IDC_EDT_LEFT_BUTTON,65,60,87,14,ES_AUTOHSCROLL | 
+                    ES_READONLY,0,HIDC_EDT_LEFT_BUTTON
+    EDITTEXT        IDC_EDT_RIGHT_BUTTON,65,79,87,14,ES_AUTOHSCROLL | 
+                    ES_READONLY,0,HIDC_EDT_RIGHT_BUTTON
+    EDITTEXT        IDC_EDT_DBL_BUTTON,65,98,87,14,ES_AUTOHSCROLL | 
+                    ES_READONLY,0,HIDC_EDT_DBL_BUTTON
+    LTEXT           "Left Button",IDC_STAT_LEFT_BUTTON,15,63,39,8
+    GROUPBOX        "Mouse Button Hotkeys",IDC_STAT_FRAME_BUTTONS,5,25,205,
+                    100
+    LTEXT           "Right Button",IDC_STAT_RIGHT_BUTTON,15,82,43,9
+    LTEXT           "Double Click",IDC_STAT_DOUBLE_BUTTON,15,102,42,9
+    PUSHBUTTON      "Change",IDC_BUTTON_LEFT,159,60,39,14,0,0,
+                    HIDC_BUTTON_LEFT
+    PUSHBUTTON      "Change",IDC_BUTTON_RIGHT,159,79,39,14,0,0,
+                    HIDC_BUTTON_RIGHT
+    PUSHBUTTON      "Change",IDC_BUTTON_DOUBLE,159,98,39,14,0,0,
+                    HIDC_BUTTON_DOUBLE
+    LTEXT           "Drag On/Off",IDC_STAT_TOGGLE_LEFT,15,44,43,8
+    EDITTEXT        IDC_EDT_TOGGLE_BTN,65,41,87,14,ES_AUTOHSCROLL | 
+                    ES_READONLY,0,HIDC_EDT_TOGGLE_BTN
+    PUSHBUTTON      "Change",IDC_BUTTON_TOGGLE,159,41,39,14,0,0,
+                    HIDC_BUTTON_TOGGLE
+END
+
+IDD_DLG_CONTEXT DIALOG DISCARDABLE  0, 0, 215, 226
+STYLE DS_MODALFRAME | DS_CONTEXTHELP | WS_POPUP | WS_DISABLED | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Context Monitoring"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "Enable Context Monitoring",IDC_CK_ENABLE_CONTEXT,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,7,7,99,10
+    LISTBOX         IDC_LST_APPS,7,106,201,113,LBS_SORT | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "Use Default",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,13,33,53,10
+    CONTROL         "Disable Smart Drag",IDC_RADIO2,"Button",
+                    BS_AUTORADIOBUTTON,13,53,77,10
+    CONTROL         "Double Click",IDC_RADIO3,"Button",BS_AUTORADIOBUTTON,13,
+                    63,56,10
+    CONTROL         "Right Click",IDC_RADIO4,"Button",BS_AUTORADIOBUTTON,13,
+                    73,50,10
+    CONTROL         "Disable MouseTool",IDC_RADIO5,"Button",
+                    BS_AUTORADIOBUTTON,13,43,77,10
+    EDITTEXT        IDC_EDT_LAST_CONTEXT,100,46,108,13,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    LTEXT           "Window Type for window last clicked on:",
+                    IDC_STAT_LAST_CONTEXT,99,26,87,17
+    PUSHBUTTON      "Add",IDC_BUTTON_ADD_CONTEXT,161,65,47,12
+    PUSHBUTTON      "Delete",IDC_BUTTON_DELETE_CONTEXT,99,65,47,12
+    LTEXT           "Window Types:",IDC_STAT_LST_APPS,7,95,63,10
+    GROUPBOX        "Action",IDC_STAT_ACTION,7,23,85,65
+    CONTROL         "Disable smart drag in scroll bar",IDC_CHECK1,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,100,85,110,10
+END
+
+IDD_DLG_TYPE_DESCRIPTION DIALOG DISCARDABLE  0, 0, 186, 47
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "Window Type Description"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_EDT_TYPE_DESCRIPTION,7,18,106,12,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,129,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,129,24,50,14
+    LTEXT           "Enter description below:",IDC_STATIC,7,7,86,10
+END
+
+IDD_DLG_GET_HOTKEY DIALOGEX 0, 0, 186, 87
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Enter Hotkey"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,129,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,129,23,50,14
+    LTEXT           "Press the key combination you would like to use as a hotkey.",
+                    IDC_STATIC,7,7,114,19
+    EDITTEXT        IDC_EDT_HOTKEY,7,68,80,12,ES_AUTOHSCROLL | ES_READONLY
+    PUSHBUTTON      "Delete",IDC_BTN_DEL,129,66,50,14
+    LTEXT           "Good key combinations are those that aren't used often in other programs, such as Control+Pause.",
+                    IDC_STATIC,7,32,113,28
+END
+
+IDD_DLG_WELCOME DIALOGEX 0, 0, 232, 181
+STYLE DS_SYSMODAL | DS_MODALFRAME | WS_POPUP
+EXSTYLE WS_EX_CLIENTEDGE
+FONT 10, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,96,162,40,12
+    LTEXT           "Thank you for trying MouseTool!\n\nThere are two things to keep in mind when using MouseTool:",
+                    IDC_STATIC,7,7,218,27
+    LTEXT           "1.  Have patience.  You may have to modify your mouse habits at first, but soon you will barely have to pay attention.",
+                    IDC_STATIC,7,37,218,17
+    LTEXT           "2.  If you are unsure of something, take a look at the tutorial in the online help file.  MouseTool has many features, and the tutorial walks through them.",
+                    IDC_STATIC,7,58,218,26
+    LTEXT           "Once you click on the OK button below, you will see the MouseTool window.  Then just press the red button to start MouseTool--once it's running, it will click whenever you pause the mouse.  ",
+                    IDC_STATIC,7,97,218,24
+    LTEXT           "(So move the mouse away from the button after clicking, or you will click again and turn it off ...)",
+                    IDC_STATIC,7,121,218,20
+END
+
+IDD_DLG_OLD_COMCTL32 DIALOG DISCARDABLE  0, 0, 215, 151
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Old System Files"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,158,130,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,158,130,50,14,NOT WS_VISIBLE
+    LTEXT           "Sorry!",IDC_STATIC,7,7,52,9
+    LTEXT           "MouseTool has found old versions of some system files on your computer; before you can run MouseTool, you will need to update those files.",
+                    IDC_STATIC,7,20,170,26
+    LTEXT           "You can get the updated files either at Microsoft's web site, or at the MouseTool site, www.mousetool.com",
+                    IDC_STATIC,7,58,146,25
+    GROUPBOX        "Update files needed",IDC_STATIC,7,95,97,49
+    LTEXT           "401comupd.exe",IDC_STAT_COMUPD,15,109,79,8
+    PUSHBUTTON      "Get Files from MouseTool Site",IDC_BUTTON_GET_FILES,129,
+                    100,79,44,BS_MULTILINE | NOT WS_VISIBLE
+END
+
+IDD_DLG_ALERT_SD DIALOG DISCARDABLE  0, 0, 186, 137
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "Attention"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "Continue",IDOK,7,116,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,129,116,50,14
+    CONTROL         "Don't tell me this in the future",IDC_CK_DONT_REMIND,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,98,136,12
+    LTEXT           "Smart Drag may take some practice at first, because it requires learning new mousing habits. ",
+                    IDC_STATIC,7,7,172,17
+    LTEXT           "You might want to get comfortable with MouseTool first, then read the directions and see the video in the online help before enabling Smart Drag.",
+                    IDC_STATIC,7,32,172,26
+    LTEXT           "Also, remember that you can use the ""Drag On/Off"" and the ""Left Click"" hotkeys to drag.",
+                    IDC_STATIC,7,66,172,17
+END
+
+IDD_DLG_ALERT_NEXTCLICK DIALOG DISCARDABLE  0, 0, 186, 79
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "Attention"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "Continue",IDOK,7,58,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,129,58,50,14
+    LTEXT           "Disabling this option will override context monitoring.  If you want to use context monitoring, you will have to leave this option checked.",
+                    IDC_STATIC,7,7,172,28
+    CONTROL         "Don't tell me this in the future",IDC_CK_DONT_REMIND,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,39,136,12
+END
+
+IDD_DLG_ALERT_CONTEXTS DIALOG DISCARDABLE  0, 0, 186, 63
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "Attention"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,65,42,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,129,42,50,14,NOT WS_VISIBLE
+    LTEXT           "To monitor contexts, you must first check ""Manually Changing Modes Overrides Next Click Only"" on the General Tab.",
+                    IDC_STATIC,7,7,172,28
+END
+
+IDD_DLG_WARN_LEFT_HOTKEY DIALOG DISCARDABLE  0, 0, 237, 170
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Attention"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,93,150,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,175,150,50,14,NOT WS_VISIBLE
+    LTEXT           "Because of limitations in Windows, the Left Button Hotkey message passes through MouseTool and is seen by the foreground application.  ",
+                    IDC_STATIC,7,17,223,18
+    LTEXT           "Note:",IDC_STATIC,7,7,102,8
+    LTEXT           "All other hotkeys behave properly, and are only seen by MouseTool.",
+                    IDC_STATIC,7,105,223,13
+    LTEXT           "So, you might want to choose a key that will not be noticed by any applications you use often.  ScrollLock is often a good choice; be careful about using the Pause key (see the FAQ for details).",
+                    IDC_STATIC,7,71,223,26
+    CONTROL         "Do not show this in the future.",IDC_CK_DONT_SHOW_AGAIN,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,122,223,9
+    LTEXT           "For example, if you use the ""+"" key on the keypad for this hotkey, then if you press the key while in a word processor, MouseTool will click ... but you will also insert a ""+"" into your document.",
+                    IDC_STATIC,7,39,223,27
+END
+
+IDD_DLG_ALERT_CK_CLICK DIALOG DISCARDABLE  0, 0, 248, 106
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "Attention"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,135,85,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,191,85,50,14
+    CONTROL         "Don't tell me this in the future",
+                    IDC_CK_DONT_WARN_CK_CLICK,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,7,90,110,9
+    LTEXT           "Enable this option to have MouseTool check to see if you are already holding a mouse button down before it clicks.",
+                    IDC_STATIC,7,7,231,18
+    LTEXT           "Due to a set of obscure bugs in Windows, this option will make MouseTool get stuck once in a while, keeping MouseTool from clicking.",
+                    IDC_STATIC,7,33,234,23
+    LTEXT           "When this happens, just click the mouse once manually to unstick MouseTool.",
+                    IDC_STATIC,7,60,234,17
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 3,1,3,0
+ PRODUCTVERSION 3,1,3,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "MouseTool MFC Application\0"
+            VALUE "FileVersion", "3, 1, 3, 0\0"
+            VALUE "InternalName", "MOUSETOOL\0"
+            VALUE "LegalCopyright", "Copyright © 2000\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "MouseTool.exe\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "MouseTool Application\0"
+            VALUE "ProductVersion", "3, 1, 3, 0\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_MOUSETOOL_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 2
+        RIGHTMARGIN, 129
+        TOPMARGIN, 1
+        BOTTOMMARGIN, 14
+    END
+
+    IDD_ABTDIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 175
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 280
+    END
+
+    IDD_OPT_GENERAL, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 205
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 218
+    END
+
+    IDD_OPT_TIMING, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 198
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 118
+    END
+
+    IDD_OPT_KEYS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 212
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 224
+    END
+
+    IDD_DLG_CONTEXT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 208
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 219
+    END
+
+    IDD_DLG_TYPE_DESCRIPTION, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 40
+    END
+
+    IDD_DLG_GET_HOTKEY, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 80
+    END
+
+    IDD_DLG_WELCOME, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 225
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 174
+    END
+
+    IDD_DLG_OLD_COMCTL32, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 208
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 144
+    END
+
+    IDD_DLG_ALERT_SD, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 130
+    END
+
+    IDD_DLG_ALERT_NEXTCLICK, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 72
+    END
+
+    IDD_DLG_ALERT_CONTEXTS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 56
+    END
+
+    IDD_DLG_WARN_LEFT_HOTKEY, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 230
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 163
+    END
+
+    IDD_DLG_ALERT_CK_CLICK, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 241
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 99
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_STOPBITMAP          BITMAP  DISCARDABLE     "res\\bitmap1.bmp"
+IDB_GOBITMAP            BITMAP  DISCARDABLE     "res\\bmp00001.bmp"
+IDB_MEPICTURE           BITMAP  DISCARDABLE     "trouble.bmp"
+IDB_RDN                 BITMAP  DISCARDABLE     "res\\rup.bmp"
+IDB_LDN                 BITMAP  DISCARDABLE     "res\\bmp00007.bmp"
+IDB_DDN                 BITMAP  DISCARDABLE     "res\\ddn.bmp"
+IDB_DFL                 BITMAP  DISCARDABLE     "res\\dfl.bmp"
+IDB_LFL                 BITMAP  DISCARDABLE     "res\\lfl.bmp"
+IDB_RFL                 BITMAP  DISCARDABLE     "res\\rfl.bmp"
+IDB_DRAG                BITMAP  DISCARDABLE     "res\\drag.bmp"
+IDB_FLAT                BITMAP  DISCARDABLE     "res\\flat.bmp"
+IDB_MAKEBIG             BITMAP  DISCARDABLE     "res\\restore.bmp"
+IDB_MAKESMALL           BITMAP  DISCARDABLE     "res\\bmp00005.bmp"
+IDB_DUP                 BITMAP  DISCARDABLE     "res\\bmp00006.bmp"
+IDB_LUP                 BITMAP  DISCARDABLE     "res\\bmp00008.bmp"
+IDB_RUP                 BITMAP  DISCARDABLE     "res\\bmp00009.bmp"
+IDB_RDRAG               BITMAP  DISCARDABLE     "res\\bmp00010.bmp"
+IDB_RDFL                BITMAP  DISCARDABLE     "res\\bmp00011.bmp"
+IDB_RDDN                BITMAP  DISCARDABLE     "res\\bmp00012.bmp"
+IDB_RDUP                BITMAP  DISCARDABLE     "res\\bmp00013.bmp"
+IDB_SPLASH              BITMAP  DISCARDABLE     "res\\splash256.bmp"
+IDB_LRG_DDN             BITMAP  DISCARDABLE     "res\\bmp00002.bmp"
+IDB_LRG_DFL             BITMAP  DISCARDABLE     "res\\lrg_dfl.bmp"
+IDB_LRG_DRAG            BITMAP  DISCARDABLE     "res\\lrg_drag.bmp"
+IDB_LRG_LDN             BITMAP  DISCARDABLE     "res\\lrg_ldn.bmp"
+IDB_LRG_DUP             BITMAP  DISCARDABLE     "res\\lrg_dup.bmp"
+IDB_LRG_FLAT            BITMAP  DISCARDABLE     "res\\lrg_flat.bmp"
+IDB_LRG_LFL             BITMAP  DISCARDABLE     "res\\lrg_lfl.bmp"
+IDB_LRG_LUP             BITMAP  DISCARDABLE     "res\\lrg_lup.bmp"
+IDB_LRG_RDDN            BITMAP  DISCARDABLE     "res\\lrg_rddn.bmp"
+IDB_LRG_RDFL            BITMAP  DISCARDABLE     "res\\lrg_rdfl.bmp"
+IDB_LRG_RDN             BITMAP  DISCARDABLE     "res\\lrg_rdn.bmp"
+IDB_LRG_RDRAG           BITMAP  DISCARDABLE     "res\\lrg_rdra.bmp"
+IDB_LRG_RDUP            BITMAP  DISCARDABLE     "res\\lrg_rdup.bmp"
+IDB_LRG_RFL             BITMAP  DISCARDABLE     "res\\lrg_rfl.bmp"
+IDB_LRG_RUP             BITMAP  DISCARDABLE     "res\\lrg_rup.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU DISCARDABLE 
+BEGIN
+    POPUP "&Tray"
+    BEGIN
+        MENUITEM "Restore from Tray",           ID_TRAYMENU_RESTORE
+        MENUITEM "Right click",                 ID_TRAYMENU_RIGHTCLICK
+        MENUITEM "Double click",                ID_TRAYMENU_DOUBLECLICK
+        MENUITEM "Left Click",                  ID_TRAYMENU_LEFTCLICK
+        MENUITEM "Stop MouseTool",              ID_TRAYMENU_STOPMOUSETOOL
+        MENUITEM "Toggle Change Next Only",     ID_TRAYMENU_NEXTONLY
+    END
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif
+#include "res\MouseTool.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

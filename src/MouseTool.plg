@@ -1,0 +1,87 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: MouseTool - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo".\Debug/MouseTool.res" /d "_DEBUG" "Z:\mousetool-freeware\MouseTool.rc"" 
+Creating temporary file "C:\DOCUME~1\Tom1\LOCALS~1\Temp\RSP36.tmp" with contents
+[
+/nologo /MTd /W3 /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fr".\Debug/" /Fp".\Debug/MouseTool.pch" /Yu"stdafx.h" /Fo".\Debug/" /Fd".\Debug/" /FD /Qwd985 /c 
+"Z:\mousetool-freeware\AbtDlg.cpp"
+"Z:\mousetool-freeware\Clicker.cpp"
+"Z:\mousetool-freeware\ClickInfo.cpp"
+"Z:\mousetool-freeware\DlgAlertCheckIfClicking.cpp"
+"Z:\mousetool-freeware\DlgAlertContexts.cpp"
+"Z:\mousetool-freeware\DlgAlertNextClick.cpp"
+"Z:\mousetool-freeware\DlgAlertSmartDrag.cpp"
+"Z:\mousetool-freeware\DlgGetHotkey.cpp"
+"Z:\mousetool-freeware\DlgOldSystemFiles.cpp"
+"Z:\mousetool-freeware\DlgWarnLeftHotkey.cpp"
+"Z:\mousetool-freeware\DlgWelcome.cpp"
+"Z:\mousetool-freeware\DlgWndTypeDesc.cpp"
+"Z:\mousetool-freeware\KeyHandler.cpp"
+"Z:\mousetool-freeware\ModeChanger.cpp"
+"Z:\mousetool-freeware\MouseTool.cpp"
+"Z:\mousetool-freeware\MouseToolDlg.cpp"
+"Z:\mousetool-freeware\OptContext.cpp"
+"Z:\mousetool-freeware\OptGeneral.cpp"
+"Z:\mousetool-freeware\OptionsSheet.cpp"
+"Z:\mousetool-freeware\OptKeys.cpp"
+"Z:\mousetool-freeware\OptTiming.cpp"
+"Z:\mousetool-freeware\ProcessHandler.cpp"
+"Z:\mousetool-freeware\TempStrDlg.cpp"
+"Z:\mousetool-freeware\TRAYICON.CPP"
+"Z:\mousetool-freeware\Utils.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Tom1\LOCALS~1\Temp\RSP36.tmp" 
+Creating temporary file "C:\DOCUME~1\Tom1\LOCALS~1\Temp\RSP37.tmp" with contents
+[
+/nologo /MTd /W3 /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fr".\Debug/" /Fp".\Debug/MouseTool.pch" /Yc"stdafx.h" /Fo".\Debug/" /Fd".\Debug/" /FD /Qwd985 /c 
+"Z:\mousetool-freeware\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Tom1\LOCALS~1\Temp\RSP37.tmp" 
+Creating temporary file "C:\DOCUME~1\Tom1\LOCALS~1\Temp\RSP38.tmp" with contents
+[
+winmm.lib eyehook.lib /nologo /subsystem:windows /incremental:yes /pdb:".\Debug/MouseTool.pdb" /debug /machine:I386 /out:".\Debug/MouseTool.exe" 
+".\Debug\AbtDlg.obj"
+".\Debug\Clicker.obj"
+".\Debug\ClickInfo.obj"
+".\Debug\DlgAlertCheckIfClicking.obj"
+".\Debug\DlgAlertContexts.obj"
+".\Debug\DlgAlertNextClick.obj"
+".\Debug\DlgAlertSmartDrag.obj"
+".\Debug\DlgGetHotkey.obj"
+".\Debug\DlgOldSystemFiles.obj"
+".\Debug\DlgWarnLeftHotkey.obj"
+".\Debug\DlgWelcome.obj"
+".\Debug\DlgWndTypeDesc.obj"
+".\Debug\KeyHandler.obj"
+".\Debug\ModeChanger.obj"
+".\Debug\MouseTool.obj"
+".\Debug\MouseToolDlg.obj"
+".\Debug\OptContext.obj"
+".\Debug\OptGeneral.obj"
+".\Debug\OptionsSheet.obj"
+".\Debug\OptKeys.obj"
+".\Debug\OptTiming.obj"
+".\Debug\ProcessHandler.obj"
+".\Debug\StdAfx.obj"
+".\Debug\TempStrDlg.obj"
+".\Debug\TRAYICON.OBJ"
+".\Debug\Utils.obj"
+".\Debug\MouseTool.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\Tom1\LOCALS~1\Temp\RSP38.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+Command line warning D4002 : ignoring unknown option '/Qwd985'
+StdAfx.cpp
+cl.exe terminated at user request.
+
+</pre>
+</body>
+</html>
